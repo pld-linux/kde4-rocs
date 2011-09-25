@@ -2,7 +2,7 @@
 %define		orgname		rocs
 
 Summary:	K Desktop Environment - Rocs Graph Theory
-Summary(pl.UTF-8):	K Desktop Environment - Rocs - Teoria Wykresów
+Summary(pl.UTF-8):	K Desktop Environment - Rocs - teoria grafów
 Name:		rocs
 Version:	4.7.1
 Release:	1
@@ -20,7 +20,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Graph Theory Tool for Professors and Students.
 
 %description -l pl.UTF-8
-Teoria wykresów dla profesorów oraz studentów.
+Teoria grafów dla profesorów oraz studentów.
 
 %package devel
 Summary:	Header files for %{name} library
