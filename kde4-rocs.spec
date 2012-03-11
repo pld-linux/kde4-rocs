@@ -5,7 +5,7 @@ Summary:	K Desktop Environment - Rocs Graph Theory
 Summary(pl.UTF-8):	K Desktop Environment - Rocs - teoria grafów
 Name:		kde4-rocs
 Version:	4.8.0
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications/Science
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.bz2
