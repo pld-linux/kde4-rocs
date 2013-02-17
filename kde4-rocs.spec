@@ -65,22 +65,42 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/rocs
 %{_desktopdir}/kde4/rocs.desktop
 %{_datadir}/apps/rocs
+%{_datadir}/apps/rocs_rootedtree
 %{_datadir}/config.kcfg/rocs.kcfg
 %{_datadir}/kde4/services/rocs_assignvaluesplugin.desktop
+%{_datadir}/kde4/services/rocs_dotfileformatplugin.desktop
 %{_datadir}/kde4/services/rocs_generategraphplugin.desktop
+%{_datadir}/kde4/services/rocs_gmlfileformatplugin.desktop
+%{_datadir}/kde4/services/rocs_GraphStructure.desktop
+%{_datadir}/kde4/services/rocs_kmlfileformatplugin.desktop
+%{_datadir}/kde4/services/rocs_ListStructure.desktop
+%{_datadir}/kde4/services/rocs_RootedTreeStructure.desktop
+%{_datadir}/kde4/services/rocs_tgffileformatplugin.desktop
+%{_datadir}/kde4/services/rocs_tikzfileformatplugin.desktop
 %{_datadir}/kde4/services/rocs_transformedgesplugin.desktop
 %{_datadir}/kde4/servicetypes/RocsDataStructurePlugin.desktop
+%{_datadir}/kde4/servicetypes/RocsGraphFilePlugin.desktop
 %{_datadir}/kde4/servicetypes/RocsToolsPlugin.desktop
-%{_datadir}/kde4/services/rocs_GraphStructure.desktop
-%{_datadir}/kde4/services/rocs_ListStructure.desktop
 %{_datadir}/config/rocs.knsrc
 
 %attr(755,root,root) %{_libdir}/kde4/rocs_assignvaluesplugin.so
+%attr(755,root,root) %{_libdir}/kde4/rocs_dotfileformat.so
 %attr(755,root,root) %{_libdir}/kde4/rocs_generategraphplugin.so
-%attr(755,root,root) %{_libdir}/kde4/rocs_transformedgesplugin.so
+%attr(755,root,root) %{_libdir}/kde4/rocs_gmlfileformat.so
 %attr(755,root,root) %{_libdir}/kde4/rocs_GraphStructure.so
+%attr(755,root,root) %{_libdir}/kde4/rocs_kmlfileformat.so
 %attr(755,root,root) %{_libdir}/kde4/rocs_ListStructure.so
+%attr(755,root,root) %{_libdir}/kde4/rocs_RootedTreeStructure.so
+%attr(755,root,root) %{_libdir}/kde4/rocs_tgffileformat.so
+%attr(755,root,root) %{_libdir}/kde4/rocs_tikzfileformat.so
+%attr(755,root,root) %{_libdir}/kde4/rocs_transformedgesplugin.so
+%attr(755,root,root) %ghost %{_libdir}/librocscore.so.?
+%attr(755,root,root) %{_libdir}/librocscore.so.*.*.*
+%attr(755,root,root) %ghost %{_libdir}/librocsvisualeditor.so.?
+%attr(755,root,root) %{_libdir}/librocsvisualeditor.so.*.*.*
 
 %files devel
 %defattr(644,root,root,755)
 %{_includedir}/rocs
+%attr(755,root,root) %{_libdir}/librocscore.so
+%attr(755,root,root) %{_libdir}/librocsvisualeditor.so
