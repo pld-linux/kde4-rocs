@@ -66,29 +66,20 @@ rm -rf $RPM_BUILD_ROOT
 %{_desktopdir}/kde4/rocs.desktop
 %{_datadir}/apps/rocs
 %{_datadir}/config.kcfg/rocs.kcfg
-%{_datadir}/kde4/services/rocs_GMLParser.desktop
 %{_datadir}/kde4/services/rocs_assignvaluesplugin.desktop
-%{_datadir}/kde4/services/rocs_dotFilePlugin.desktop
 %{_datadir}/kde4/services/rocs_generategraphplugin.desktop
-%{_datadir}/kde4/services/rocs_plaintxtplugin.desktop
 %{_datadir}/kde4/services/rocs_transformedgesplugin.desktop
 %{_datadir}/kde4/servicetypes/RocsDataStructurePlugin.desktop
-%{_datadir}/kde4/servicetypes/RocsFilePlugin.desktop
 %{_datadir}/kde4/servicetypes/RocsToolsPlugin.desktop
 %{_datadir}/kde4/services/rocs_GraphStructure.desktop
 %{_datadir}/kde4/services/rocs_ListStructure.desktop
 %{_datadir}/config/rocs.knsrc
 
-%attr(755,root,root) %{_libdir}/kde4/rocs_GMLParser.so
 %attr(755,root,root) %{_libdir}/kde4/rocs_assignvaluesplugin.so
-%attr(755,root,root) %{_libdir}/kde4/rocs_dotFilePlugin.so
 %attr(755,root,root) %{_libdir}/kde4/rocs_generategraphplugin.so
-%attr(755,root,root) %{_libdir}/kde4/rocs_plaintxt.so
 %attr(755,root,root) %{_libdir}/kde4/rocs_transformedgesplugin.so
 %attr(755,root,root) %{_libdir}/kde4/rocs_GraphStructure.so
 %attr(755,root,root) %{_libdir}/kde4/rocs_ListStructure.so
-%attr(755,root,root) %{_libdir}/librocslib.so.?
-%attr(755,root,root) %{_libdir}/librocslib.so.*.*.*
 
 %files devel
 %defattr(644,root,root,755)
