@@ -1,0 +1,46 @@
+diff -ur rocs-4.14.3/RocsCore/LoadSave/Plugins/dotFileFormat/Tests/CMakeLists.txt rocs-4.14.3.cmake/RocsCore/LoadSave/Plugins/dotFileFormat/Tests/CMakeLists.txt
+--- rocs-4.14.3/RocsCore/LoadSave/Plugins/dotFileFormat/Tests/CMakeLists.txt	2014-10-09 07:21:27.000000000 +0200
++++ rocs-4.14.3.cmake/RocsCore/LoadSave/Plugins/dotFileFormat/Tests/CMakeLists.txt	2019-10-04 08:21:49.175773652 +0200
+@@ -33,4 +33,4 @@
+     ${QT_QTTEST_LIBRARY}
+     ${KDE4_KDECORE_LIBS}
+ )
+-add_test(TestDotFileFormatPlugin TestDotFileFormatPlugin)
++add_test(Test TestDotFileFormatPlugin)
+diff -ur rocs-4.14.3/RocsCore/LoadSave/Plugins/gmlFileFormat/Tests/CMakeLists.txt rocs-4.14.3.cmake/RocsCore/LoadSave/Plugins/gmlFileFormat/Tests/CMakeLists.txt
+--- rocs-4.14.3/RocsCore/LoadSave/Plugins/gmlFileFormat/Tests/CMakeLists.txt	2014-10-09 07:21:27.000000000 +0200
++++ rocs-4.14.3.cmake/RocsCore/LoadSave/Plugins/gmlFileFormat/Tests/CMakeLists.txt	2019-10-04 10:10:37.268893297 +0200
+@@ -32,4 +32,4 @@
+     ${QT_QTTEST_LIBRARY}
+     ${KDE4_KDECORE_LIBS}
+ )
+-add_test(TestGmlFileFormatPlugin TestGmlFileFormatPlugin)
++add_test(Test TestGmlFileFormatPlugin)
+diff -ur rocs-4.14.3/RocsCore/LoadSave/Plugins/kmlFileFormat/Tests/CMakeLists.txt rocs-4.14.3.cmake/RocsCore/LoadSave/Plugins/kmlFileFormat/Tests/CMakeLists.txt
+--- rocs-4.14.3/RocsCore/LoadSave/Plugins/kmlFileFormat/Tests/CMakeLists.txt	2014-10-09 07:21:27.000000000 +0200
++++ rocs-4.14.3.cmake/RocsCore/LoadSave/Plugins/kmlFileFormat/Tests/CMakeLists.txt	2019-10-04 10:10:45.718893014 +0200
+@@ -30,4 +30,4 @@
+     ${QT_QTTEST_LIBRARY}
+     ${KDE4_KDECORE_LIBS}
+ )
+-add_test(TestKmlFileFormatPlugin TestKmlFileFormatPlugin)
++add_test(Test TestKmlFileFormatPlugin)
+diff -ur rocs-4.14.3/RocsCore/LoadSave/Plugins/tgfFileFormat/Tests/CMakeLists.txt rocs-4.14.3.cmake/RocsCore/LoadSave/Plugins/tgfFileFormat/Tests/CMakeLists.txt
+--- rocs-4.14.3/RocsCore/LoadSave/Plugins/tgfFileFormat/Tests/CMakeLists.txt	2014-10-09 07:21:27.000000000 +0200
++++ rocs-4.14.3.cmake/RocsCore/LoadSave/Plugins/tgfFileFormat/Tests/CMakeLists.txt	2019-10-04 10:10:53.448892754 +0200
+@@ -35,4 +35,4 @@
+     ${QT_QTTEST_LIBRARY}
+     ${KDE4_KDECORE_LIBS}
+ )
+-add_test(TestTgfFileFormatPlugin TestTgfFileFormatPlugin)
++add_test(Test TestTgfFileFormatPlugin)
+diff -ur rocs-4.14.3/RocsCore/LoadSave/Plugins/tikzFileFormat/Tests/CMakeLists.txt rocs-4.14.3.cmake/RocsCore/LoadSave/Plugins/tikzFileFormat/Tests/CMakeLists.txt
+--- rocs-4.14.3/RocsCore/LoadSave/Plugins/tikzFileFormat/Tests/CMakeLists.txt	2014-10-09 07:21:27.000000000 +0200
++++ rocs-4.14.3.cmake/RocsCore/LoadSave/Plugins/tikzFileFormat/Tests/CMakeLists.txt	2019-10-04 10:11:01.108892494 +0200
+@@ -29,5 +29,5 @@
+     ${QT_QTTEST_LIBRARY}
+     ${KDE4_KDECORE_LIBS}
+ )
+-add_test(TestTikzFileFormatPlugin TestTikzFileFormatPlugin)
++add_test(Test TestTikzFileFormatPlugin)
+ 
